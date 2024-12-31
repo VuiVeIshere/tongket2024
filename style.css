@@ -1,0 +1,56 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.a {
+  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif; 
+  color: #ffffff; /* Optional: Change hyperlink color */
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.arial {
+    font-family: 'Arial', sans-serif; /* Set font to Arial */
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Set font to Arial */
+    color: #5C6AC4; /* Change text color as needed */
+    font-size: 40px; /* Set desired font size */
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.image-container img {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Scale image on hover */
+    opacity: 0.8; /* Change opacity on hover */
+}
+
+.image-container {
+    position: relative;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 40px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0; /* Align to the bottom */
+    right: 10%;
+    width: auto; /* Adjust width */
+    color: #ffffff; /* Change text color */
+    font-size: 40px; /* Adjust font size */
+    text-align: right; /* Center text */
+    padding: 10px; /* Optional: padding */
+}
